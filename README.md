@@ -1,6 +1,6 @@
 # <img src="assets/CARRSQ_LOGO.jfif" width=50> Semantic Gaze Tracking
 
-<img src="assets/teaser.gif" align="right" width=320 height=200>
+<img src="assets/GIFSEGMENTATION.gif" align="right" width=320 height=200>
 
 This repository contains the official implementation of our methodology for the computation of a semantically segmented bird's eye view (BEV) image given the images of multiple vehicle-mounted cameras as presented in our paper:
 
