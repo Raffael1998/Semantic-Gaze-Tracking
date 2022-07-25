@@ -9,6 +9,8 @@ The data used is provided by :
 - An advanced lidar system (here IBEO), that provides position and size of bounding boxes of the surrounding objects
 - Another lidar (here Velodyne), that provides a dens point cloud of the surroundings
 
+The image segmentation used is inspired by the 
+
 
 > **A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird’s Eye View**
 ([IEEE Xplore](https://ieeexplore.ieee.org/document/9294462), [arXiv](https://arxiv.org/abs/2005.04078))  
