@@ -9,7 +9,7 @@ The data used is provided by :
 - An advanced lidar system (here IBEO), that provides position and size of bounding boxes of the surrounding objects
 - Another lidar (here Velodyne), that provides a dens point cloud of the surroundings
 
-The image segmentation used is inspired by the [CSAILVision Github](https://github.com/CSAILVision/semantic-segmentation-pytorch). \n
+The image segmentation used is inspired by the [CSAILVision Github](https://github.com/CSAILVision/semantic-segmentation-pytorch).  
 This project was conducted during a 5 months intership in the Centre of Accident Research and Road Safety ([CARRS-Q](https://research.qut.edu.au/carrsq/)) of the Queensland University of Technology (Australia).
 
 
