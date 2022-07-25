@@ -9,7 +9,7 @@ The data used is provided by :
 - An advanced lidar system (here IBEO), that provides position and size of bounding boxes of the surrounding objects
 - Another lidar (here Velodyne), that provides a dens point cloud of the surroundings
 
-The image segmentation used is inspired by the [CSAILVision Github](https://github.com/CSAILVision/semantic-segmentation-pytorch)
+The image segmentation used is inspired by the [CSAILVision Github](https://github.com/CSAILVision/semantic-segmentation-pytorch).
 
 
 > **A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird’s Eye View**
