@@ -4,6 +4,8 @@ from objects import *
 from transforms import *
 from utils import *
 
+#Import data here
+
 objectBoxCenters_csv = r"C:\Users\grosr\OneDrive - Queensland University of Technology\Desktop\Raffael\CARRS-Q internship\Data\IbeoData\RecFile_1_20220601_164333_IbeoObjectsSplitter_1_objectBoxCenters.csv"
 classifications_csv = r"C:\Users\grosr\OneDrive - Queensland University of Technology\Desktop\Raffael\CARRS-Q internship\Data\IbeoData\RecFile_1_20220601_164333_IbeoObjectsSplitter_1_classifications.csv"
 objectBoxSizes_csv = r"C:\Users\grosr\OneDrive - Queensland University of Technology\Desktop\Raffael\CARRS-Q internship\Data\IbeoData\RecFile_1_20220601_164333_IbeoObjectsSplitter_1_objectBoxSizes.csv"
@@ -15,6 +17,7 @@ gaze_list_csv = r"C:\Users\grosr\OneDrive - Queensland University of Technology\
     objectBoxOrientations, absoluteVelocities, gaze_list_float] = import_files([objectBoxCenters_csv, classifications_csv, objectBoxSizes_csv, 
                                                                                 objectBoxOrientations_csv, absoluteVelocities_csv, gaze_list_csv])
 
+#The segmentation can be done in a seperate file or directly in this main (in that case add a couple lines that use segmentation.py to create the color image)
 segm_folder = r'C:\Users\grosr\OneDrive - Queensland University of Technology\Desktop\Raffael\CARRS-Q internship\Results Semantic Segmentation CSAIL\resultsAllFrames20epochs'
 images_list = list(os.listdir(segm_folder))
 images_list.sort()
