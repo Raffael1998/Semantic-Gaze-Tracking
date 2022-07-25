@@ -4,10 +4,10 @@
 
 This repository contains an explaination and demonstration of a proof of concept i created to to merge signals from the eye tracker and the sensors seeing the vehicle environment.
 The data used is provided by :
-> A camera, on which we apply a semantic segmentation specific to road objects and environment
-> A gaze tracker (here Seeing Machine), that provides information about the head position and the gaze direction
-> An advanced lidar system (here IBEO), that provides position and size of bounding boxes of the surrounding objects
-> Another lidar (here Velodyne), that provides a dens point cloud of the surroundings
+- A camera, on which we apply a semantic segmentation specific to road objects and environment
+- A gaze tracker (here Seeing Machine), that provides information about the head position and the gaze direction
+- An advanced lidar system (here IBEO), that provides position and size of bounding boxes of the surrounding objects
+- Another lidar (here Velodyne), that provides a dens point cloud of the surroundings
 
 
 > **A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird’s Eye View**
