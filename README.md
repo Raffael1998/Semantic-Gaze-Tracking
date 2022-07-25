@@ -1,4 +1,4 @@
-# <img src="assets/logo.png" width=50> Semantic Gaze Tracking
+# <img src="assets/CARRSQ_LOGO.jfif" width=50> Semantic Gaze Tracking
 
 <img src="assets/teaser.gif" align="right" width=320 height=200>
 
