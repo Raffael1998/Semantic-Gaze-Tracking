@@ -4,6 +4,7 @@ from objects import *
 from transforms import *
 from utils import *
 
+#Import the data files here
 
 objectBoxCenters_csv = r"C:\Users\grosr\OneDrive - Queensland University of Technology\Desktop\Raffael\CARRS-Q internship\Data\IbeoData\RecFile_1_20220601_164333_IbeoObjectsSplitter_1_objectBoxCenters.csv"
 classifications_csv = r"C:\Users\grosr\OneDrive - Queensland University of Technology\Desktop\Raffael\CARRS-Q internship\Data\IbeoData\RecFile_1_20220601_164333_IbeoObjectsSplitter_1_classifications.csv"
@@ -41,6 +42,8 @@ def main():
             box_list.append(box)
 
         time = float(objectBoxCenters[line_num][0])
+        
+        #Import the video file here
         video_file = r'C:\Users\grosr\OneDrive - Queensland University of Technology\Desktop\Raffael\CARRS-Q internship\Data\DataRaw\PC2RecVideoDMS_20220330_163312_FrontCam_imageOut.avi'
         frame = find_frame(time, video_file)
 
