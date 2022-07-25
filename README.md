@@ -7,7 +7,7 @@ The data used is provided by :
 - A camera, on which we apply a semantic segmentation specific to road objects and environment
 - A gaze tracker (here Seeing Machine), that provides information about the head position and the gaze direction
 - An advanced lidar system (here IBEO), that provides position and size of bounding boxes of the surrounding objects
-- Another lidar (here Velodyne), that provides a dens point cloud of the surroundings
+- Another lidar (here Velodyne), that provides a dense point cloud of the surroundings
 
 The image segmentation used is inspired by the [CSAILVision Github](https://github.com/CSAILVision/semantic-segmentation-pytorch).  
 This project was conducted during a 5 months intership in the Centre of Accident Research and Road Safety ([CARRS-Q](https://research.qut.edu.au/carrsq/)) of the Queensland University of Technology (Australia).
