@@ -1,6 +1,6 @@
 # <img src="assets/CARRSQ_LOGO.jfif" width=30> Semantic Gaze Tracking
 
-<img src="assets/GIFSEGMENTATION.gif" align="right" width=416 height=260>
+<img src="assets/GIFSEGMENTATION.gif" align="right" width=400 height=250>
 
 This repository contains an explaination and demonstration of a proof of concept I created to merge signals from the eye tracker and the sensors seeing the vehicle environment.
 The data used is provided by :
