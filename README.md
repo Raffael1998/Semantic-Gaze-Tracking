@@ -14,7 +14,7 @@ This project was conducted during a 5 months intership in the Centre of Accident
 
 ## Processing Pipeline :
 
-here is the processing pipeline
+![image](https://user-images.githubusercontent.com/67725628/188056527-cb03d8a5-7de5-491e-8418-4c321421b3d7.png)
 
 > _**Abstract**_ — Accurate environment perception is essential for automated driving. When using monocular cameras, the distance estimation of elements in the environment poses a major challenge. Distances can be more easily estimated when the camera perspective is transformed to a bird's eye view (BEV). For flat surfaces, _Inverse Perspective Mapping_ (IPM) can accurately transform images to a BEV. Three-dimensional objects such as vehicles and vulnerable road users are distorted by this transformation making it difficult to estimate their position relative to the sensor. This paper describes a methodology to obtain a corrected 360° BEV image given images from multiple vehicle-mounted cameras. The corrected BEV image is segmented into semantic classes and includes a prediction of occluded areas. The neural network approach does not rely on manually labeled data, but is trained on a synthetic dataset in such a way that it generalizes well to real-world data. By using semantically segmented images as input, we reduce the reality gap between simulated and real-world data and are able to show that our method can be successfully applied in the real world. Extensive experiments conducted on the synthetic data demonstrate the superiority of our approach compared to IPM.
 
