@@ -15,23 +15,23 @@ This project was conducted during a 5 months intership in the Centre of Accident
 ## Context :
 
 The problem
-•	Driver’s distraction
-•	Level 2 of vehicle autonomy : the driver must maintain their vigilance on the road
-•	Level 3 : the driver is the fallback solution if the automation understands that it will fail to operate in a near future
-•	Level 4 : the automation needs to understand the readiness of the driver if they decide to take over
-→ Current driver monitoring systems do not analyse the driver visual attention with respect to the environment
+-	Driver’s distraction
+-	Level 2 of vehicle autonomy : the driver must maintain their vigilance on the road
+-	Level 3 : the driver is the fallback solution if the automation understands that it will fail to operate in a near future
+-	Level 4 : the automation needs to understand the readiness of the driver if they decide to take over
+- Current driver monitoring systems do not analyse the driver visual attention with respect to the environment
 Proposed solution
-•	Analyse the road and the driver’s focus to infer the danger rating of the situation
+-	Analyse the road and the driver’s focus to infer the danger rating of the situation
 
 Targets
-•	Identify the position of the objects looked at by the driver
-•	Identify the class of the objects looked at
+-	Identify the position of the objects looked at by the driver
+-	Identify the class of the objects looked at
 Problems currently
-•	The gaze tracker gives information about the direction of the gaze but the information about the distance of the focus point is not precise enough (intersection of the 2 gaze lines)
-•	In order to compute the distance of the objects, we need a 3D representation of the environment
-•	Solution 1 : Stereo depth map images (we need a stereo camera system or a machine learning solution to recreate this image)
-•	Solution 2 : Using a lidar (IBEO / Lidar)
-•	Finding the class of the objects
+-	The gaze tracker gives information about the direction of the gaze but the information about the distance of the focus point is not precise enough (intersection of the 2 gaze lines)
+-	In order to compute the distance of the objects, we need a 3D representation of the environment
+-	Solution 1 : Stereo depth map images (we need a stereo camera system or a machine learning solution to recreate this image)
+-	Solution 2 : Using a lidar (IBEO / Lidar)
+-	Finding the class of the objects
 
 
 ## Processing Pipeline :
