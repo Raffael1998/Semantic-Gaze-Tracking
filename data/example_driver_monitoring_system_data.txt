@@ -1,0 +1,12 @@
+Exemple of Driver monitoring system data :
+
+Timestamp (in microsecond preferably) ; position_of_head_X ; position_of_head_Y : position_of_head_Z ; Direction_of_gaze_X ; Direction_of_gaze_Y ; Direction_of_gaze_Z
+The Direction of gaze should be unit vector, that represents the general direction of the gaze from the middle of both eyes
+Here, we orient x towards the back of the car, y to the right of the driver, z up in the air (I think, maybe double check that in the code). The IBEO coordinates should be x towards the front of the car, z up in the air
+All units are in meter
+
+
+Ex : 
+1000000;0.3;0.2;0.8;-0.3;-0.08;-0.9
+1100000;0.35;0.15;0.8;-0.5;-0.05;-0.7
+...
