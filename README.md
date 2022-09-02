@@ -12,15 +12,9 @@ The data used is provided by :
 The image segmentation used is inspired by the [CSAILVision Github](https://github.com/CSAILVision/semantic-segmentation-pytorch).  
 This project was conducted during a 5 months intership in the Centre of Accident Research and Road Safety ([CARRS-Q](https://research.qut.edu.au/carrsq/)) of the Queensland University of Technology (Australia).
 
+## Processing Pipeline :
 
-
-> **A Sim2Real Deep Learning Approach for the Transformation of Images from Multiple Vehicle-Mounted Cameras to a Semantically Segmented Image in Bird’s Eye View**
-([IEEE Xplore](https://ieeexplore.ieee.org/document/9294462), [arXiv](https://arxiv.org/abs/2005.04078))  
->
-> [Lennart Reiher](https://github.com/lreiher), [Bastian Lampe](https://www.ika.rwth-aachen.de/en/institute/staff/bastian-lampe-m-sc.html), and [Lutz Eckstein](https://www.ika.rwth-aachen.de/en/institute/management/univ-prof-dr-ing-lutz-eckstein.html)  
-> [Institute for Automotive Engineering (ika), RWTH Aachen University](https://www.ika.rwth-aachen.de/en/)
-
-[![Cam2BEV_video](assets/video_preview.jpg)](https://youtu.be/TzXuwt56a0E)
+here is the processing pipeline
 
 > _**Abstract**_ — Accurate environment perception is essential for automated driving. When using monocular cameras, the distance estimation of elements in the environment poses a major challenge. Distances can be more easily estimated when the camera perspective is transformed to a bird's eye view (BEV). For flat surfaces, _Inverse Perspective Mapping_ (IPM) can accurately transform images to a BEV. Three-dimensional objects such as vehicles and vulnerable road users are distorted by this transformation making it difficult to estimate their position relative to the sensor. This paper describes a methodology to obtain a corrected 360° BEV image given images from multiple vehicle-mounted cameras. The corrected BEV image is segmented into semantic classes and includes a prediction of occluded areas. The neural network approach does not rely on manually labeled data, but is trained on a synthetic dataset in such a way that it generalizes well to real-world data. By using semantically segmented images as input, we reduce the reality gap between simulated and real-world data and are able to show that our method can be successfully applied in the real world. Extensive experiments conducted on the synthetic data demonstrate the superiority of our approach compared to IPM.
 
